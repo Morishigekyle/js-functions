@@ -273,7 +273,11 @@ console.log(myFullName);
  * Console.log your result.
  */
 
+function eatFood(firstName, lastName, food){
+	return(firstName + " " + lastName + " eats " + food + " everyday for breakfast.")
+};
 
+console.log(eatFood("Kyle", "Morishige", "nothing"));
 
 /************** ENGAGE HYPERDRIVE **************/
 /* No more training wheels! For the exercises #14-18, use the experience you've
