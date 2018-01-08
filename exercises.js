@@ -184,6 +184,12 @@ console.log(total);
  * Console.log your result.  
 */
 
+function checkQuotient(){
+	return(product*quotient)
+};
+var productQuotient = checkQuotient();
+console.log(productQuotient);
+
 /*
  * Declare three variables
  *   @variable Datatype: Number `bango3`
