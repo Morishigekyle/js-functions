@@ -337,7 +337,11 @@ console.log(oneCap("Meeeeooowowwwwww"));
  * Store the return value to a variable named `canDrink`. Console.log your result.
  */
 
-
+function verifyDrinkingAge(age){
+	return(age>=21)
+};
+var canDrink = verifyDrinkingAge(21);
+console.log(canDrink);
 
 /**
  * #18
