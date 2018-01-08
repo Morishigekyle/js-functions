@@ -195,7 +195,7 @@ console.log(productQuotient);
  *   @variable Datatype: Number `bango3`
  *   @variable Datatype: Number `bango4`
  *   @variable Datatype: Number `bango5`
- 
+
  * #10
  * Function - addThenSubtract
  *   
@@ -210,7 +210,16 @@ console.log(productQuotient);
  * Console.log your result.
 */ 
 
+var bango3 = 6
+var bango4 = 9
+var bango5 = 15
 
+function addThenSubtract(num1, num2, num3){
+	return(num1+num2-num3)
+};
+
+var addSubtract = addThenSubtract(bango3, bango4, bango5);
+console.log(addSubtract);
 
 /*
  * #11
